@@ -1,5 +1,19 @@
 {"intents": [
-    {"tag": [],
+    {"tag": "saudacao",
+ 	"patterns": ["Ola!!", "Como voce esta?", "Tem alguem ai?",
+                	"Oi","Oie", "Alo"],
+ 	"responses": ["Ola!!, obrigado por perguntar.", "Que bom ver voce novamente.",
+                	"Ola, como posso ajudar?"]
+	},
+    {"tag": [despedida],
+     "patterns": [],
+     "responses": []
+    },
+     {"tag": [agradecimento],
+     "patterns": [],
+     "responses": []
+    },
+     {"tag": [sem resposta],
      "patterns": [],
      "responses": []
     },
